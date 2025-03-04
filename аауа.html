@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthToken (TRT) - Official Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Фоновое видео */
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .video-container video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Контейнер для контента */
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        /* Описание токена */
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        .about-text {
+            width: 60%;
+            text-align: left;
+        }
+
+        .about-image {
+            width: 35%;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Стили для FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            width: 100%;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .faq-item:hover {
+            background: #fff4ee;
+        }
+
+        .faq-item.active {
+            border: 2px solid #ff6600;
+            color: black;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            font-size: 16px;
+            color: black;
+            text-align: left;
+        }
+
+        /* Секция с дополнительными видео */
+        .videos-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .video-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .video-wrapper video {
+            width: 45%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        footer a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Фоновое видео -->
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="для сайта.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Контент сайта -->
+    <div class="content">
+        <header>
+            <div class="header-container">
+                <h1>TruthToken (TRT)</h1>
+            </div>
+        </header>
+
+        <!-- Описание токена -->
+        <section class="about-container">
+            <div class="about-text">
+                <h2>About TruthToken</h2>
+                <p>TruthToken is a blockchain-based solution to combat fake news and misinformation.</p>
+                <p><strong>The TruthToken (TRT) Story: The revolt against misinformation</strong></p>
+                <p>Chapter 1: A problem that cannot be ignored
+In today's world, information has become the most powerful weapon. Fake news and misinformation have taken over the Internet, destroying trust, manipulating society, and undermining the foundations of truth. Fake articles, artificially created scandals and fake testimonies have overwhelmed social media and social networks, influencing political decisions, business, people's health and even their perception of reality.</p>
+                <p>Every day, millions of people read and spread lies without realizing they are becoming part of this huge disinformation machine. We needed a tool that could not just fight fakes, but do it transparently, objectively and effectively. This is how the idea of TruthToken (TRT) was born.</p>
+
+                <p>Chapter 2: Birth of TruthToken (TRT)</strong></p>
+                <p>A team of independent journalists, blockchain developers, and truth activists came together to create a new system for fighting lies. They knew that traditional methods weren't working - censorship wasn't solving the problem, and fact-checking was often biased.</p>
+
+                <p>The solution? A decentralized information verification system based on blockchain and collective truth verification.</p>
+
+                <p>How does TruthToken (TRT) work?</strong></p>
+                <p>Fact-checking on blockchain - information is captured in an immutable registry where every statement is independently verified by a community of experts and users.
+Truth Voting - users can tag news stories as true, and if a majority vote confirms a fake, appropriate actions can be taken</p>
+            </div>
+            <div class="about-image">
+                <img src="DALL·E_TruthToken.png" alt="TruthToken Logo">
+            </div>
+        </section>
+
+        <!-- FAQ -->
+          <div class="faq-container">
+            <h2 style="color: black;">FAQ: TruthToken (TRT)</h2>
+            
+            <button class="faq-item">1. What is TruthToken (TRT)?</button>
+            <div class="faq-answer">
+                TruthToken (TRT) is a blockchain-based solution designed to combat fake news and misinformation. By utilizing decentralized verification and community participation, TRT ensures transparency and accuracy in online information.
+            </div>
+
+            <button class="faq-item">2. What problem does TruthToken solve?</button>
+            <div class="faq-answer">
+                TruthToken addresses the widespread issue of misinformation on the internet. Fake news influences political decisions, businesses, health, and public perception. TRT provides a transparent, unbiased, and effective method to verify the truth.
+            </div>
+
+            <button class="faq-item">3. How did TruthToken originate?</button>
+            <div class="faq-answer">
+                TruthToken was created by a team of independent journalists, blockchain developers, and truth activists who recognized the failure of traditional methods like censorship and biased fact-checking. They developed a decentralized system to verify information collectively and transparently.
+            </div>
+
+            <button class="faq-item">4. How does TruthToken (TRT) work?</button>
+            <div class="faq-answer">
+                  - Fact-checking on blockchain: Information is recorded in an immutable ledger where every statement undergoes independent verification by a community of experts and users.<br>
+                  - Truth Voting: Users can tag news as true or false. If a majority confirms misinformation, corrective actions are taken.<br>
+                  - Transparency and accountability: Every verified piece of information is stored on a public blockchain, ensuring no single entity can manipulate or alter the truth.<br>
+            </div>
+
+            <button class="faq-item">5.  Why is blockchain used for TruthToken?</button>
+            <div class="faq-answer">
+                Blockchain provides a tamper-proof, decentralized platform where data cannot be altered once recorded. This ensures a transparent and objective verification process, free from centralized control or external influence
+            </div>
+           
+            <button class="faq-item">6.   Who verifies the information?</button>
+            <div class="faq-answer">
+                A community of experts, journalists, and users participate in verifying news articles and reports. Their collective judgment, supported by blockchain technology, determines the credibility of the information.
+            </div>
+
+            <button class="faq-item">7.  How can I participate in TruthToken’s ecosystem?</button>
+            <div class="faq-answer">
+                - Verify News: Users can participate in the truth verification process by analyzing and voting on articles.<br>
+                - Stake TRT Tokens: Participants can stake tokens to support the verification process and earn rewards.<br>
+                - Report Misinformation: Users can flag fake news for review by the community.<br>
+            </div>
+
+            <button class="faq-item">8.  How is TruthToken different from traditional fact-checking services?</button>
+            <div class="faq-answer">
+                Unlike centralized fact-checkers that may have inherent biases, TruthToken uses a decentralized community-driven approach, ensuring that no single organization controls the truth. The blockchain-based system provides transparency and accountability in the verification process.
+            </div>
+
+            <button class="faq-item">9.  What incentives exist for users to verify information?</button>
+            <div class="faq-answer">
+                Users who actively participate in fact-checking and verification can earn TRT tokens as rewards, promoting an engaged and trustworthy community.
+            </div>
+
+            <button class="faq-item">10.  How can I acquire TruthToken (TRT)?</button>
+            <div class="faq-answer">
+                TruthToken will be available for purchase and trade on blockchain-based platforms, with opportunities to earn tokens through participation in the ecosystem.
+            </div>
+
+            <button class="faq-item">11.  Is TruthToken censorship-resistant?</button>
+            <div class="faq-answer">
+                Yes. Since TruthToken operates on a decentralized blockchain, no single authority can censor or manipulate the information recorded on the network.
+            </div>
+
+            <button class="faq-item">12.  How does Truth Voting work?</button>
+            <div class="faq-answer">
+                Users cast votes on whether a news story is true or false. When a consensus is reached that a piece of information is false, it is flagged for correction and warnings are issued to prevent further spread.
+            </div>
+
+            <button class="faq-item">13.  What is the future vision for TruthToken?</button>
+            <div class="faq-answer">
+                TruthToken aims to become the global standard for truth verification, integrating with news platforms, social media, and government institutions to create a more transparent and truthful digital world.
+            </div>
+        </div>
+
+        <!-- Дополнительные видео -->
+        <section class="videos-section">
+            <h2>More Videos</h2>
+            <div class="video-wrapper">
+                <video controls>
+                    <source src="20250304_2132_Digital_Shield_Deflection_simple_compose_01jnh6w7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="20250304_2135_Digital_Shield_Defense_simple_compose_01jnh71chff2qat1pbsdtcr6wt.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <footer>
+            <a href="https://t.me/TruthTokenTRT" target="_blank">Telegram</a>
+            <a href="https://x.com/BriansawyeTorri" target="_blank">Twitter (X)</a>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const faqItems = document.querySelectorAll(".faq-item");
+
+            faqItems.forEach(item => {
+                item.addEventListener("click", function() {
+                    const answer = this.nextElementSibling;
+
+                    if (answer.style.display === "block") {
+                        answer.style.display = "none";
+                        this.classList.remove("active");
+                    } else {
+                        document.querySelectorAll(".faq-answer").forEach(a => a.style.display = "none");
+                        document.querySelectorAll(".faq-item").forEach(b => b.classList.remove("active"));
+                        answer.style.display = "block";
+                        this.classList.add("active");
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
